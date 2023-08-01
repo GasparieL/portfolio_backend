@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
-import { PortfolioBackendStack } from '../lib/portfolio backend-stack';
+import { PortfolioBackendStack } from './portfolio_backend-stack';
 
 const app = new cdk.App();
 new PortfolioBackendStack(app, 'PortfolioBackendStack', {

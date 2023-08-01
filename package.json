@@ -1,8 +1,8 @@
 {
-  "name": "portfolio backend",
+  "name": "portfolio_backend",
   "version": "0.1.0",
   "bin": {
-    "portfolio backend": "bin/portfolio backend.js"
+    "portfolio_backend": "bin/portfolio_backend.js"
   },
   "scripts": {
     "build": "tsc",
